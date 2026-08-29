@@ -1,0 +1,35 @@
+{
+  "name": "CaribbeanBeachSurvival",
+  "globIgnorePaths": [
+    "**/*.spec.luau",
+    "**/*.test.luau",
+    "**/.DS_Store"
+  ],
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "CaribbeanSurvival": {
+        "$className": "Folder",
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Gameplay": {
+        "$className": "Script",
+        "$path": "src/server/gameplay"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Hud": {
+          "$className": "LocalScript",
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
